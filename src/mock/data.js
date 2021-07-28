@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Ibrahim Azhad',
+  subtitle: 'Full Stack Developer',
   cta: '',
 };
 
@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'github.com/ib-azhad',
     },
   ],
 };
