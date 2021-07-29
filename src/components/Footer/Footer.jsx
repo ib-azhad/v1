@@ -38,11 +38,17 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
+          © {new Date().getFullYear()} - Developed by{' '}
+          <a href="https://github.com/ib-azhad" target="_blank" rel="noopener noreferrer">
+            Ibrahim Azhad
+          </a>
+        </p>
+        {/* <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev/gatsby-simplefolio" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
           </a>
-        </p>
+        </p> */}
 
         {isEnabled && <GithubButtons />}
       </Container>

@@ -17,10 +17,10 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile3.jpg',
+  paragraphOne: 'Hello. My Name is Ibrahim Azhad. I have been coding for more than 5 years.',
+  paragraphTwo: 'So far i have been working with only one company - codeworks. My work there mainly is developing and deploying Ruby on Rails projects and iOS Projects. I also have experience in laravel, react, nextjs and vue.',
+  paragraphThree: 'My focus these days is learning other technologies like flutter, svelte, strapi and typescript.',
   resume: '/resume.pdf', // if no resume, the button will not show up
 };
 
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'zamzam-mobile.png',
     title: 'ZamZam Umra Hajj and Umra App (Android & iOS)',
     info: 'Developed for ZamZam Hajj and Umra Group. This app gives the information about the steps, duas and other information related to Hajj and Umra trips. ',
     info2: 'Languages: Java for android, swift for iOS',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'moosun.png',
     title: 'Moosun App (iOS)',
     info: 'Weather Application developed for Maldives Meteorological Service which shows daily weather stats, alerts and other weather related information',
     info2: 'Developed using xcode with swift programming language',
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'karaoke.png',
     title: 'karaoke.mv (web)',
     info: 'Dhivehi Karaoke website developed for a client.',
     info2: 'Developed using Ruby on Rails framework.',
