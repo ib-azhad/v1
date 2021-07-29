@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hello, My name is',
   name: 'Ibrahim Azhad',
   subtitle: 'Full Stack Developer',
   cta: '',
@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: 'Hello. My Name is Ibrahim Azhad. I have been coding for more than 5 years.',
+  paragraphOne: 'I have been developing softwares for more than 5 years because I enjoy making apps and websites with a focus on UI/UX.',
   paragraphTwo: 'So far i have been working with only one company - codeworks. My work there mainly is developing and deploying Ruby on Rails projects and iOS Projects. I also have experience in laravel, react, nextjs and vue.',
-  paragraphThree: 'My focus these days is learning other technologies like flutter, svelte, strapi and typescript.',
+  paragraphThree: 'I am focused now is on learning other technologies like flutter, svelte, strapi and typescript.',
   resume: '/resume.pdf', // if no resume, the button will not show up
 };
 
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'zamzam-mobile.png',
-    title: 'ZamZam Umra Hajj and Umra App (Android & iOS)',
+    title: 'ZamZam Umra Umra App (Android & iOS)',
     info: 'Developed for ZamZam Hajj and Umra Group. This app gives the information about the steps, duas and other information related to Hajj and Umra trips. ',
     info2: 'Languages: Java for android, swift for iOS',
     url: 'https://play.google.com/store/apps/details?id=com.codeworks.zamzam_umra',
